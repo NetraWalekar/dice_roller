@@ -39,10 +39,10 @@
     </div>
     <script>
         function roll(){
-            const roll_no = Math.floor(Math.random(7-1))+1;
+            const roll_no = Math.floor(Math.random()*6)+1;
             const img = document.getElementById("img-dice")
            switch(roll_no){
-           case 1:
+            case 1:
             img.src="1.png"
             break 
             case 2:
